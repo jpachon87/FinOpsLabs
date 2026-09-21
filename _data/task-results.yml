@@ -1,0 +1,65 @@
+lab1:
+  results:
+    - "**Resultado esperado:** El entorno de trabajo queda preparado con el dataset de NovaTech descargado y validado con exactamente 10 síntomas para el diagnóstico FinOps."
+    - "**Resultado esperado:** Los 10 síntomas quedan clasificados por Domain, Capability, fase predominante, causa raíz y prioridad mediante un diagnóstico estructurado."
+    - "**Resultado esperado:** Se obtiene el impacto mensual cuantificado, la distribución de prioridades y un resumen ejecutivo con la interpretación preliminar de madurez FinOps."
+
+lab2:
+  results:
+    - "**Resultado esperado:** Se genera y carga un dataset sintético de facturación multicloud con 500 registros y se valida su estructura, contenido y campos principales."
+    - "**Resultado esperado:** Los costos quedan normalizados y analizados por proveedor, servicio, modelo de consumo y tipo de uso, incluyendo cobertura y ahorro asociado."
+    - "**Resultado esperado:** Se genera y valida un archivo Excel consolidado con los principales resúmenes financieros y métricas obtenidas del reporte de consumo cloud."
+
+lab3:
+  results:
+    - "**Resultado esperado:** El dataset histórico queda descargado y validado con aproximadamente cuatro meses de información, categorías IaaS, PaaS y SaaS y costos expresados en EUR."
+    - "**Resultado esperado:** Se construyen series semanales, variaciones Week-over-Week y un conjunto de anomalías detectadas mediante z-score para los servicios analizados."
+    - "**Resultado esperado:** Se generan dos visualizaciones PNG y un reporte Excel consolidado con tendencias, variaciones WoW, anomalías y crecimiento por servicio."
+
+lab4:
+  results:
+    - "**Resultado esperado:** El dataset de Allocation queda preparado y se define una taxonomía de metadata para equipo, producto, ambiente, centro de costo y owner."
+    - "**Resultado esperado:** Los costos quedan clasificados como direct, shared, partial o unallocated y los shared costs se distribuyen proporcionalmente entre los equipos."
+    - "**Resultado esperado:** Se obtiene un reporte de showback y métricas de calidad de Allocation, incluyendo cobertura directa, shared cost y costo residual no asignado."
+
+lab5:
+  results:
+    - "**Resultado esperado:** Los datos de Billing, tendencias, Allocation y presupuesto quedan consolidados y se calculan los principales KPIs FinOps de NovaTech."
+    - "**Resultado esperado:** Se genera el análisis Budget vs Actual por equipo y un forecast para febrero, marzo y abril de 2024 con su correspondiente visualización."
+    - "**Resultado esperado:** Las anomalías quedan convertidas en un Anomaly Log operativo con prioridad, SLA, owner, estado y métricas de seguimiento."
+    - "**Resultado esperado:** Se genera y valida el dashboard FinOps en Excel con Executive Summary, Cost & Trend, Budget vs Actual, Forecast y Anomaly Log."
+
+lab6:
+  results:
+    - "**Resultado esperado:** El dataset de 155 recursos queda descargado y validado con información de utilización, costo, ownership, storage y modelo de pricing."
+    - "**Resultado esperado:** Se identifican candidatos de Low Utilization, Rightsizing, Storage, Rate Optimization y Governance evitando el doble conteo entre categorías."
+    - "**Resultado esperado:** Las oportunidades quedan priorizadas en un backlog mediante ahorro estimado, esfuerzo, riesgo y NovaTech Priority Score."
+    - "**Resultado esperado:** Se generan dos visualizaciones de priorización y un reporte Excel con resumen, backlog completo, categorías y quick wins."
+
+lab7:
+  results:
+    - "**Resultado esperado:** Se carga el perfil organizacional de NovaTech y quedan definidas seis personas FinOps con sus equipos, responsables y responsabilidades principales."
+    - "**Resultado esperado:** Se construye y valida una matriz RACI para cinco procesos FinOps, garantizando un Accountable y al menos un Responsible por proceso."
+    - "**Resultado esperado:** Se generan cuatro políticas YAML para metadata, presupuesto, excepciones y aprobaciones de gasto con las reglas internas de NovaTech."
+    - "**Resultado esperado:** Se obtiene el Governance Readiness Assessment y un reporte Excel con roles, RACI, políticas y dimensiones de preparación de Governance."
+
+lab8:
+  results:
+    - "**Resultado esperado:** PostgreSQL y Grafana quedan operativos mediante Docker y los datasets de AWS, Azure y GCP se cargan correctamente en tres tablas staging."
+    - "**Resultado esperado:** Las tres fuentes multicloud quedan normalizadas mediante dbt y consolidadas en un mart con 3,300 registros alineado con un subconjunto de FOCUS 1.4."
+    - "**Resultado esperado:** Se ejecutan las validaciones de calidad y se obtienen métricas de completitud de metadata y consistencia del mart FinOps normalizado."
+    - "**Resultado esperado:** Grafana queda conectado al mart con un dashboard FinOps y se generan los artefactos de documentación y gobierno básico del pipeline de datos."
+
+lab9:
+  results:
+    - "**Resultado esperado:** Se identifican los principales drivers de costo Kubernetes y se comparan tres métodos de distribución del mismo pool de shared costs."
+    - "**Resultado esperado:** Los costos multicloud quedan normalizados a EUR y se analizan variaciones de costo unitario y economics de workloads de AI."
+    - "**Resultado esperado:** Se crean seis nuevas oportunidades FinOps y se generan el análisis de drivers modernos y un backlog de optimización enriquecido."
+
+lab10:
+  results:
+    - "**Resultado esperado:** Se validan los artefactos previos y se genera un diagnóstico FinOps con evidencia, readiness indicativo y madurez por Capability."
+    - "**Resultado esperado:** Las iniciativas del backlog quedan organizadas en un roadmap 30-60-90 con responsables, outcomes, métricas de éxito y oportunidad estimada."
+    - "**Resultado esperado:** Se define un operating model con KPIs, targets, owners, cadencias de revisión y reglas de decisión para la operación FinOps."
+    - "**Resultado esperado:** Se genera un reporte ejecutivo HTML autocontenido con Capability Readiness, oportunidades de optimización, roadmap y KPIs operativos."
+    - "**Resultado esperado:** Se validan los cuatro entregables finales y se confirma que diagnóstico, roadmap, operating model y reporte ejecutivo forman el cierre integral del caso."

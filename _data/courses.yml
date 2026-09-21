@@ -1,0 +1,65 @@
+# _data/courses.yml
+finopsesp:
+  title: "Fundamentos de FinOps"
+  intro: "Curso práctico para comprender y aplicar fundamentos de FinOps mediante análisis de costos, Allocation, optimización, Governance, FOCUS y toma de decisiones basada en datos."
+  labs:
+
+    - id: lab1
+      title: "Diagnóstico inicial de problemas FinOps"
+      url: "/lab1/lab1/"
+      duration: "15 min"
+      desc: "Diagnostica síntomas de gestión tecnológica y financiera mediante Domains, Capabilities, Phases y madurez FinOps."
+
+    - id: lab2
+      title: "Lectura de un reporte de consumo cloud"
+      url: "/lab2/lab2/"
+      duration: "25 min"
+      desc: "Interpreta un reporte multicloud, analiza métricas de costo y genera un resumen financiero consolidado en Excel."
+
+    - id: lab3
+      title: "Análisis de tendencias y anomalías de consumo"
+      url: "/lab3/lab3/"
+      duration: "25 min"
+      desc: "Analiza tendencias semanales, variaciones Week-over-Week y anomalías de gasto mediante datos históricos en EUR."
+
+    - id: lab4
+      title: "Asignación de costos por producto, equipo y ambiente"
+      url: "/lab4/lab4/"
+      duration: "30 min"
+      desc: "Clasifica y distribuye costos tecnológicos por equipo, producto y ambiente aplicando una estrategia de Allocation."
+
+    - id: lab5
+      title: "Construir un tablero FinOps básico"
+      url: "/lab5/lab5/"
+      duration: "60 min"
+      desc: "Integra KPIs, tendencias, presupuesto, forecast, Allocation y anomalías en un tablero FinOps construido en Excel."
+
+    - id: lab6
+      title: "Backlog de optimización y priorización por impacto"
+      url: "/lab6/lab6/"
+      duration: "30 min"
+      desc: "Detecta oportunidades de optimización y construye un backlog priorizado por ahorro, esfuerzo y riesgo estimado."
+
+    - id: lab7
+      title: "Definición de roles, RACI y políticas mínimas"
+      url: "/lab7/lab7/"
+      duration: "25 min"
+      desc: "Define personas, responsabilidades, matriz RACI y políticas mínimas para establecer Governance dentro de FinOps."
+
+    - id: lab8
+      title: "Arquitectura de datos FinOps con FOCUS"
+      url: "/lab8/lab8/"
+      duration: "30 min"
+      desc: "Ingiere y normaliza datos multicloud con PostgreSQL y dbt usando un modelo alineado con FOCUS y Grafana."
+
+    - id: lab9
+      title: "Identificar drivers de costo en una solución moderna"
+      url: "/lab9/lab9/"
+      duration: "15 min"
+      desc: "Analiza drivers de costo en Kubernetes, multicloud y AI para convertir hallazgos en oportunidades FinOps."
+
+    - id: lab10
+      title: "Caso integrador FinOps: diagnóstico, roadmap y reporte ejecutivo"
+      url: "/lab10/lab10/"
+      duration: "45 min"
+      desc: "Integra evidencias del curso para crear diagnóstico, roadmap 30-60-90, modelo operativo y reporte ejecutivo."
